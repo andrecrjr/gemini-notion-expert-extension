@@ -10,17 +10,17 @@
     "notion": {
       "command": "node",
       "args": [
-        "${extensionPath}/dist/bundle.js"
+        "${extensionPath}${/}dist${/}bundle.js"
       ],
-      "cwd": "${extensionPath}",
-      "timeout": 30
+      "cwd": "${extensionPath}"
     }
   },
   "settings": [
     {
       "name": "Notion API Key",
       "description": "Your internal integration secret from https://www.notion.so/my-integrations",
-      "envVar": "NOTION_API_KEY"
+      "envVar": "NOTION_API_KEY",
+      "sensitive": true
     }
   ],
   "contextPath": "GEMINI.md",
