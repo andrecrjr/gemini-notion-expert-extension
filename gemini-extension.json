@@ -18,7 +18,7 @@
   "settings": [
     {
       "name": "Notion API Key",
-      "description": "Your internal integration secret from https://www.notion.so/my-integrations",
+      "description": "Your internal integration secret from https://www.notion.so/profile/integrations/internal",
       "envVar": "NOTION_API_KEY"
     }
   ],
