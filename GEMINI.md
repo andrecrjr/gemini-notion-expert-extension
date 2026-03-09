@@ -1,7 +1,7 @@
 # Notion Extension Playbook v2.4
 
 ## Purpose
-Full-featured Notion integration for Gemini CLI. Manage your entire Notion workspace - pages, databases, blocks, comments, users, projects, and conversation exports.
+Full-featured Notion integration for Gemini CLI and QWEN CLI. Manage your entire Notion workspace - pages, databases, blocks, comments, users, projects, and conversation exports.
 
 ---
 
